@@ -140,11 +140,11 @@ ValueError: Unrecognized configuration class <class 'transformers_modules.chatgl
 
 如果出现进行gradio页面后输入问题，点击chat按钮一直计时，如下图：
 
-![requests_time_out](images\requests_time_out.png)
+![requests_time_out](./images/requests_time_out.png)
 
 可以重新刷新页面，按F12查看浏览器过程，重新输入问题，然后点击chat按钮，查看请求中是否有403forbidden。
 
-![403_forbidden](images\403_forbidden.png)
+![403_forbidden](./images/403_forbidden.png)
 
 如果有上述问题，可以通过构建公共gradio的url来访问，操作如下:
 
@@ -166,8 +166,9 @@ demo.launch(server_name="127.0.0.1", server_port=8501, inbrowser=True, share=Tru
 
 这个时候命令行中会给你创建公共链接
 
-![public_link](images\public_link.png)
+![public_link](./images/public_link.png)
 
 点击公共链接，输入问题，即可成功！！！
 
-![success](images\success.png)
+![success](./images/success.png)
+

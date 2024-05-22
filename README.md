@@ -1,0 +1,2 @@
+# LangChain_ChatGLM_NNU_RAG
+基于langchain框架构建的rag小项目
